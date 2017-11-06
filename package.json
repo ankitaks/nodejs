@@ -4,12 +4,15 @@
   "description": "getting started with nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint":"eslint src/js"
   },
   "repository": {
     "type": "git",
-    "url": "ankitaks/nodejs/test"
+    "url": "ankitaks/nodejs/"
   },
   "author": "Ankit Kumar Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  }
 }
